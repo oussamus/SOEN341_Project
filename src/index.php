@@ -9,7 +9,7 @@
         <?php
         
         // Connecting, selecting database
-        $theHost = "localhost";
+        $theHost = "localhost"; // On the actual server (if we use one), this should probably be "<something>.encs.concordia.ca" (without the quotes).
         $theDbName = "soen341db";
         $theUsername = "deniz"; // "soen341user";
         $thePassword = "cncrd";
